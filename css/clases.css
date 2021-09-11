@@ -1,5 +1,9 @@
 /* ============================================================================================= */
 /* ========== CLASES ========== */
+.active {
+    color: var(--text-color);
+}
+
 .bd-grid {
     column-gap: 2rem;
     display: grid;
@@ -8,6 +12,74 @@
     margin-right: var(--mb-2);
     max-width: 1024px;
     width: calc(100% - 2rem);
+}
+
+.button {
+    background-color: var(--first-color);
+    border-radius: .5rem;
+    color: var(--first-color-lighten);
+    display: inline-block;
+    font-weight: var(--font-semi-bold);
+    padding: 1rem 2rem;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: var(--first-color-dark);
+}
+
+.home__button {
+    width: 100%;
+}
+
+.home__container {
+    align-items: center;
+    height: calc(100vh - var(--header-height));
+}
+
+.home__data {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    text-align: center;
+}
+
+.home__img {
+    margin-bottom: var(--mb-2);
+    overflow: hidden;
+    padding-left: .8rem;
+    padding-top: 1.3rem;
+}
+
+.home__profession {
+    color: var(--first-color-dark);
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-5);
+}
+
+.home__social {
+    margin-bottom: 5rem;
+}
+
+.home__social-link {
+    border-radius: 50%;
+    color: var(--first-color);
+    font-size: 1.1rem;
+    display: inline-flex;
+    margin: 0 var(--mb-1);
+    padding: .40rem;
+    transition: .3s;
+}
+
+.home__social-link:hover {
+    color: var(--first-color-dark);
+}
+
+.home__title {
+    color: var(--first-color);
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
 }
 
 .l-header {
