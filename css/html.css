@@ -1,5 +1,39 @@
 /* ============================================================================================= */
 /* ========== HTML ========== */
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 body {
-    font-family: 'RobotoMono-Regular', sans-serif;
+    background-color: var(--first-color-lighten);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 1.6;
+    margin: var(--header-height) 0 0 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h3 {
+    font-weight: var(--font-semi-bold);
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
