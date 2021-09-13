@@ -1,5 +1,53 @@
 /* ============================================================================================= */
+
+
 /* ========== CLASES ========== */
+
+.about__container {
+    row-gap: 2rem;
+}
+
+.about__data {
+    text-align: center;
+}
+
+.about__description {
+    margin-bottom: var(--mb-4);
+}
+
+.about__information {
+    margin-bottom: var(--mb-4);
+}
+
+.about__information i {
+    color: var(--first-color);
+    font-size: 1.5rem;
+    margin-right: var(--mb-4);
+}
+
+.about__information-title {
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+
+.about__information-data {
+    align-items: center;
+    display: flex;
+    margin-bottom: var(--mb-3);
+    padding-left: 1.5rem;
+}
+
+.about__information-subtitle {
+    display: block;
+    font-weight: var(--font-semi-bold);
+}
+
+.about__img {
+    border-radius: .5rem;
+    margin: 0 auto;
+    width: 150px;
+}
+
 .active {
     color: var(--text-color);
 }
@@ -46,10 +94,8 @@
 }
 
 .home__img {
-    margin-bottom: var(--mb-2);
-    overflow: hidden;
-    padding-left: .8rem;
-    padding-top: 1.3rem;
+    height: 160px;
+    width: 160px;
 }
 
 .home__profession {
@@ -74,6 +120,7 @@
 
 .home__social-link:hover {
     color: var(--first-color-dark);
+    transform: scale(1.5);
 }
 
 .home__title {
@@ -165,4 +212,92 @@
 
 .show {
     left: 0;
+}
+
+.skills__bar {
+    background-color: var(--first-color);
+    bottom: -.75rem;
+    height: .25rem;
+    position: absolute;
+}
+
+.skills__html {
+    width: 80%;
+}
+
+.skills__css {
+    width: 70%;
+}
+
+.skills__javascript {
+    width: 70%;
+}
+
+.skills__vuejs {
+    width: 60%;
+}
+
+.skills__angular {
+    width: 40%;
+}
+
+.skills__react {
+    width: 30%;
+}
+
+.skills__jquery {
+    width: 50%;
+}
+
+.skills__php {
+    width: 80%;
+}
+
+.skills__node {
+    width: 40%;
+}
+
+.skills__firebase {
+    width: 30%;
+}
+
+.skills__python {
+    width: 40%;
+}
+
+.skills__java {
+    width: 70%;
+}
+
+.skills__c-sharp {
+    width: 70%;
+}
+
+.skills__container {
+    row-gap: 2rem;
+}
+
+.skills__mysql {
+    width: 80%;
+}
+
+.skills__sql-server {
+    width: 40%;
+}
+
+.skills__data {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 var(--mb-2);
+    margin-bottom: var(--mb-4);
+    position: relative;
+}
+
+.skills__name {
+    text-transform: uppercase;
+}
+
+.skills__subtitle {
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
 }
