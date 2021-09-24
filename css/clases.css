@@ -76,6 +76,46 @@
     background-color: var(--first-color-dark);
 }
 
+.contact ::placeholder {
+    color: var(--first-color);
+}
+
+.contact__button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.contact__container {
+    row-gap: 3rem;
+}
+
+.contact__info {
+    margin-bottom: var(--mb-3);
+}
+
+.contact__input {
+    background-color: var(--first-color-light);
+    border: none;
+    border-radius: .5rem;
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-2);
+    outline: none;
+    padding: 1rem;
+    width: 100%;
+}
+
+.contact__subtitle {
+    color: var(--first-color);
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.contact__text {
+    display: block;
+    padding-left: 1rem;
+}
+
 .education__container {
     row-gap: 2rem;
 }

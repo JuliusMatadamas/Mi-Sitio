@@ -450,7 +450,38 @@
         </section>
 
         <!-- ===== CONTACTO ===== -->
-        <section></section>
+        <section class="contact section" id="contacto">
+            <span class="section-subtitle">Mis formas de</span>
+            <h2 class="section-title">Contacto</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" name="nombre" id="nombre" class="contact__input" placeholder="Tu nombre completo por favor.">
+                        <input type="email" name="email" id="email" class="contact__input" placeholder="Tu correo electrónico.">
+                        <input type="tel" name="telefono" id="telefono" class="contact__input" placeholder="Tu número de contacto." pattern="[0-9]{10}">
+                    </div>
+
+                    <input type="text" name="asunto" id="asunto" class="contact__input" placeholder="Asunto">
+                    <textarea name="mensaje" id="mensaje" class="contact__input" cols="0" rows="10" placeholder="Tu mensaje"></textarea>
+                    <button type="submit" class="button contact__button">Enviar mensaje</button>
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Llámame</h3>
+                        <span class="contact__text">(52)8683119901</span>
+                        <span class="contact__text">(52)8688143197</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <span class="contact__text">juliomat@juliomatadamas.com</span>
+                        <span class="contact__text">admin@juliomatadamas.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="js/main.js"></script>
