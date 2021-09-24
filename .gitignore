@@ -1,0 +1,2 @@
+# ignorar la carpeta de archivos para evitar cargar otros repositorios git dentro de esta carpeta
+/proyectos
