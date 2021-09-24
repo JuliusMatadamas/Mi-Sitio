@@ -408,6 +408,10 @@
     color: var(--first-color-lighten);
 }
 
+.services__content:hover > .services__title {
+    color: var(--first-color-lighten);
+}
+
 .services__icon {
     font-size: 2rem;
     margin-bottom: var(--mb-2);

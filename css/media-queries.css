@@ -9,4 +9,69 @@
         --small-font-size: .875rem;
         --smaller-font-size: .813rem;
     }
+    .home__button {
+        width: initial;
+    }
+    .nav__menu {
+        width: var(--nav-width);
+    }
+    .about__container, .skills__container, .services__container, .portfolio__container, .contact__container, .contact__inputs {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about__data {
+        text-align: justify;
+    }
+    .about__description {
+        margin-bottom: var(--mb-5);
+    }
+    .about__information {
+        padding-left: 4rem;
+    }
+    .contact__info {
+        padding-left: 3rem;
+    }
+    .education__time {
+        padding: 0 2rem;
+    }
+    .footer {
+        background: none;
+    }
+    .footer__container {
+        background-color: var(--first-color-darken);
+        border-radius: .5rem;
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    body {
+        margin: 0;
+        padding-left: var(--nav-width);
+    }
+    .db-grid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .l-header {
+        width: 0;
+    }
+    .home__container {
+        height: 100vh;
+        margin: auto;
+    }
+    .about__container, .skills__container, .education__container, .services__container, .portfolio__container, .contact__container, .footer__container {
+        margin: auto;
+    }
+    .nav__toggle, .nav__logo, .nav__close {
+        display: none;
+    }
+    .nav__menu {
+        left: 0;
+    }
+    .section {
+        padding: 3rem 0 2rem;
+    }
+    .portfolio__container {
+        grid-template-columns: repeat(3,1fr);
+    }
 }
