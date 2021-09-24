@@ -173,6 +173,42 @@
     text-align: right;
 }
 
+.footer {
+    background-color: var(--first-color-darken);
+    color: var(--first-color-lighten);
+    text-align: center;
+}
+
+.footer__copy {
+    font-size: var(--small-font-size);
+}
+
+.footer__description {
+    margin-bottom: var(--mb-2);
+}
+
+.footer__link {
+    color: var(--first-color-lighten);
+    display: inline-flex;
+    font-size: 1.1rem;
+    margin: 0 var(--mb-1);
+    padding: .40rem;
+    transition: .3s;
+}
+
+.footer__link:hover {
+    transform: scale(1.5);
+}
+
+.footer__social {
+    margin-bottom: 3rem;
+}
+
+.footer__title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-2);
+}
+
 .home__button {
     width: 100%;
 }
