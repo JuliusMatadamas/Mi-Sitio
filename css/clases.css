@@ -319,6 +319,7 @@
 .portfolio__title {
     color: var(--first-color-lighten);
     font-size: var(--h2-font-size);
+    text-align: center;
 }
 
 .nav {
@@ -518,4 +519,9 @@
 .skills__subtitle {
     color: var(--first-color-dark);
     margin-bottom: var(--mb-2);
+}
+
+.text__small {
+    font-size: .8em;
+    text-align: justify;
 }
